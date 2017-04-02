@@ -3812,3 +3812,37 @@
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+	@keyframes dropHeader {
+	  0% {
+		font-size: 1em;
+	  }
+	  100% {
+		font-size: 4em;
+	  }
+	}
+	@keyframes dropHeade {
+	  0% {
+		font-size: 1em;
+	  }
+	  100% {
+		font-size: 2em;
+	  }
+	}
+
+	header {  
+	  /* This section calls the dropHeader animation we defined above */
+	  
+	  background: #333;
+	  padding: 30px;
+	}
+	.animator h4{
+		animation: 1s ease-out 0s 1 dropHeader;
+		
+		font-size: 4em;
+	} 
+	.animator p{
+		animation: 1s ease-out 0s 1 dropHeade;
+		
+		font-size: 2em;
+	}
+	
