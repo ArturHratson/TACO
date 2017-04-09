@@ -40,11 +40,21 @@
 									<div class="row">
 										<div class="6u 12u$(medium)">
 											<ul class="actions">
-												<li><a href="#" class="button special">S</a></li>
-												<li><a href="#" class="button special">L</a></li>
-												<li><a href="#" class="button special">M</a></li>
-											</ul>
-	
+									
+											<span>
+<input id="Radio1" name="Radios" type="radio" value="Option 1" checked="checked">
+<label for="Radio1">S</label>
+</span>
+
+<span>
+<input id="Radio2" name="Radios" type="radio" value="Option 2" >
+<label for="Radio2">M</label>
+</span>
+
+<span>
+<input id="Radio3" name="Radios" type="radio" value="Option 3" >
+<label for="Radio3">L</label>
+</span>	
                                            <span id="Name"> <b>Name:</b>
                                               <input id="Name" type="text" name="Name">
                                                 <span id="Email"> <b>Email:</b>
@@ -53,31 +63,34 @@
 										<div class="6u 12u$(medium)">
 										<h4>Payment options</h4>
 											<ul class="actions vertical">
-												<li><a href="#" class="button special fit">Cash</a></li>
+												<li><a href="#" class="button  fit">Cash</a></li>
 												<li><a href="#" class="button fit">Card</a></li>
 											</ul>
-											<p onclick="myFunction()">Click me to change my text color.</p>
-
-<script>
-function myFunction() {
-    document.getElementById("demo").style.color = "red";
-}
-</script>
-Try it Yourself »
-
 											<h4>Delivery options</h4>
 											<ul class="actions vertical small">
-												<li><a href="#" class="button special small fit">Nova Poshta</a></li>
+												<li><a href="#" class="button small fit">Nova Poshta</a></li>
 												<li><a href="#" class="button small fit">International post</a></li>
 											</ul>
 										</div>
 									</div>
+									<button id="myBtn">Confirm</button>
+
+
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>soon you will get email</p>
+  </div>
+
+</div>
 								</section>
 							
 
 								<section>
 									<h4>reviews</h4>
-									<form method="post" action="#">
+												<form method="post" action="#">
 										<div class="row uniform">
 											<div class="6u 12u$(xsmall)">
 												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
