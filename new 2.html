@@ -1,4 +1,3 @@
-
  <!DOCTYPE HTML>
 <html>
 	<head>
@@ -55,17 +54,20 @@
 <input id="Radio3" name="Radios" type="radio" value="Option 3">
 <label for="Radio3">L</label>
 </span>		
-</ul><div><form method="POST" action="http://formspree.io/tigerkosa15@gmail.com">
-  <input type="email" name="email" placeholder="Your email">
-  <textarea name="Name" placeholder="Your name"></textarea>
+</ul>
+<div><form action="post" data-sending="{{ site.text.contact.ajax.sending }}" data-sent="{{ site.text.contact.ajax.sent }}" data-submit="{{ site.text.contact.submit }}" data-error="{{ site.text.contact.ajax.error }}" data-email="{{ site.email }}" class="center-block form-stacked">
+    <input type="text" name="Name/surname" class="field-light" placeholder="your name/surname">
+    <input type="email" name="email" class="field-light" placeholder="your email">
+           </textarea>
+    <button type='submit' class="center-block btn btn-primary btn-lg"></button>
 </form>
 
 
 										</div></div><div class="6u 12u$(medium)">
 										<h4>Payment options</h4>
 											<ul class="actions vertical">
-<input id="Radioo" name="Radioso" type="radio" value="Option 3">
-<label for="Radioo">Card</label>
+<input id="Radioo11111111" name="Radioso" type="radio" value="Option 3">
+<label for="Radioo">Card(coming soon)</label>
 											<input id="Radioo1" name="Radioso" type="radio" value="Option 2">
 <label for="Radioo1">Cash</label>
 
@@ -73,10 +75,13 @@
 											<h4>Delivery options</h4>
 											<ul class="actions vertical small">
 																						<input id="Radioo111" name="Radioso1" type="radio" value="Option 2">
-<label for="Radioo111">Cash</label>	
+<label for="Radioo111">Nova poshta</label>	
 <input id="Radioo11" name="Radioso1" type="radio" value="Option 3">
 <label for="Radioo11">International post</label>
 											</ul>
+											 <form enctype="multipart/form-data" method="post">
+   <h5>Your photo↓</h5>
+   <p><input type="file" name="photo" multiple accept="image/*,image/jpeg"> </p>
 										</div>
 									</div>
 									<div class="row">

@@ -1,4 +1,5 @@
-<!DOCTYPE HTML>
+
+ <!DOCTYPE HTML>
 <html>
 	<head>
 		<title> T-shirts</title>
@@ -19,7 +20,7 @@
 									<div id="menu">
 										<ul>
 											<li><a href="index.html">Home</a></li>
-											<li><a href="Brandhistory.html">Brand History</a></li>
+											<li><a href="brandhistory.htm">Brand History</a></li>
 										</ul>
 									</div>
 								</li>
@@ -54,16 +55,20 @@
 <input id="Radio3" name="Radios" type="radio" value="Option 3">
 <label for="Radio3">L</label>
 </span>		
-</ul><div> <form method="POST" action="http://formspree.io/tigerkosa15@gmail.com">
-  <input type="email" name="email" placeholder="Your email">
-  <textarea name="message" placeholder="Your message"></textarea>
-  <button type="submit">Send</button>
+</ul>
+<div><form action="post" data-sending="{{ site.text.contact.ajax.sending }}" data-sent="{{ site.text.contact.ajax.sent }}" data-submit="{{ site.text.contact.submit }}" data-error="{{ site.text.contact.ajax.error }}" data-email="{{ site.email }}" class="center-block form-stacked">
+    <input type="text" name="Name/surname" class="field-light" placeholder="your name/surname">
+    <input type="email" name="email" class="field-light" placeholder="your email">
+           </textarea>
+    <button type='submit' class="center-block btn btn-primary btn-lg"></button>
 </form>
+
+
 										</div></div><div class="6u 12u$(medium)">
 										<h4>Payment options</h4>
 											<ul class="actions vertical">
-<input id="Radioo" name="Radioso" type="radio" value="Option 3">
-<label for="Radioo">Card</label>
+<input id="Radioo11111111" name="Radioso" type="radio" value="Option 3">
+<label for="Radioo">Card(coming soon)</label>
 											<input id="Radioo1" name="Radioso" type="radio" value="Option 2">
 <label for="Radioo1">Cash</label>
 
@@ -71,7 +76,7 @@
 											<h4>Delivery options</h4>
 											<ul class="actions vertical small">
 																						<input id="Radioo111" name="Radioso1" type="radio" value="Option 2">
-<label for="Radioo111">Cash</label>	
+<label for="Radioo111">Nova poshta</label>	
 <input id="Radioo11" name="Radioso1" type="radio" value="Option 3">
 <label for="Radioo11">International post</label>
 											</ul>
@@ -89,7 +94,7 @@
 								</div>
 							<div class="inner">
 												<ul class="actions">
-													<li><input type="submit" value="confirm" class="special" href="https://formspree.io/your@email.com" /></li>
+													<li><input type="submit" value="confirm" class="special" /></li>
 												</ul>
 											</div>
 								</section>
@@ -144,14 +149,13 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<ul class="icons">
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+							
+							<li><a href="https://www.facebook.com/profile.php?id=123456789" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/people_of_taco/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://plus.google.com/u/4/101081723900779800689?hl=ru" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 						</ul>
 						<ul class="copyright">
-							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">Taco people</a></li>
+							<li>&copy; TACO</li><li>Design: <a href="brandhistory.htm" S>Taco people</a></li>
 						</ul>
 					</footer>
 
